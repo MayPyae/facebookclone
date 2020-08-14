@@ -3,14 +3,14 @@ import logo from "./../logo.svg";
 class Header extends Component {
   render() {
     return (
-      <div className="bg-gray-800 grid grid-cols-3">
+      <div className="grid grid-cols-3 menu-dark">
         <div className="flex items-center">
           <img src={logo} className="w-20" />
-          <div className="bg-gray-700 px-4 py-2 rounded-full">
+          <div className=" px-4 py-2 rounded-full bg-input">
             <i class="fas fa-search text-gray-500 mr-2"></i>
             <input
               type="text"
-              className="bg-gray-700 outline-none text-white"
+              className="outline-none text-white bg-input "
               placeholder="Search Facebook"
             />
           </div>

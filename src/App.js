@@ -1,13 +1,13 @@
 import React from "react";
 import "./tailwind.output.css";
 import Header from "./compontents/Header";
-import ProfileHeader from "./compontents/ProfileHeader";
+import Profile from "./compontents/Profile";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <ProfileHeader />
+      <Profile />
     </div>
   );
 }
