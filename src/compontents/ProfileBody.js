@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PostText from "./PostText";
 
 class ProfileBody extends Component {
   render() {
@@ -79,6 +80,7 @@ class ProfileBody extends Component {
                 </a>
               </div>
             </div>
+            <PostText />
           </div>
         </div>
       </div>
