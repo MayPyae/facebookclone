@@ -18,7 +18,7 @@ class ProfileBody extends Component {
               </div>
 
               <h4 className="text-gray-400">568 Friends</h4>
-              <div className="grid grid-cols-3 grap mt-2">
+              <div className="grid grid-cols-3 gap-2 mt-2">
                 <div>
                   <img
                     src="img4.jpeg"
