@@ -25,7 +25,7 @@ class ProfileHeader extends Component {
             <h2 className="text-3xl font-bold">May Pyae Sone </h2>
             <p className="text-gray-500">Are You Sure?</p>
             <a href="#" className="text-blue-500 font-bold">
-              Edit
+              Update
             </a>
           </div>
         </div>
